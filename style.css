@@ -1,0 +1,28 @@
+.video{
+    width:560;
+    height:315;
+}
+.sort{
+    display: flex;
+    flex-direction: row;
+    width:500px;
+    height:100px;
+    padding:20px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin:5px;
+    font-family:'Courier New', Courier, monospace;
+    font-size:20px;
+    background-color:aquamarine;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
