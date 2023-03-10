@@ -1,4 +1,4 @@
-console.log('Remove this console log and get started!')
+//I feel like the one I made is with duct tape and glue... but at least it kind of worked
 
 //create a list of data to extract from
 const data = [
@@ -10,9 +10,8 @@ const data = [
     '<iframe width="560" height="315" src="https://www.youtube.com/embed/GVT3WUa-48Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><div class="title">Title: ANIME ROCK, PAPER, SCISSORS</div>',
     '<iframe width="560" height="315" src="https://www.youtube.com/embed/fjhS6bwuxVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><div class="title">Title: Monkey longest sentence</div>',
     '<iframe width="560" height="315" src="https://www.youtube.com/embed/JcniyQYFU6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><div class="title">Title: Heinz Automato 2</div>',
-    '<iframe width="560" height="315" src="https://www.youtube.com/embed/sHzdsFiBbFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><div class="title">Title: Spiders On Drugs</div>']
-//create buttons
-
+    '<iframe width="560" height="315" src="https://www.youtube.com/embed/sHzdsFiBbFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><div class="title">Title: Spiders On Drugs</div>'
+]
 //function to extract data
 function channelOne(){
     const random1to3 = Math.ceil(Math.random()*3)
